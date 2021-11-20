@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+
+body {
+  background: #503522;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 520px;
+  min-height: 500px;
+  background: #28210a;
+  text-align: center;
+  margin: 20px auto;
+  border-radius: 5px;
+  padding-bottom: 32px;
+}
+
+.todo_main {
+  margin-bottom: 32px;
+  padding: 0px 40px;
+}
+
+.todo-input {
+  padding: 10px;
+  outline: none;
+  width: 320px;
+  background: transparent;
+  color: #fff;
+  border: 0px;
+  border-bottom: 1px solid #cb9995;
+}
+.todo-input::placeholder {
+  color: #858585;
+  font-size: 20px;
+}
+
+.todo-container {
+display: flex;
+flex-direction: row;
+position: relative;
+}
+
+.todo_title h3 {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.todo-button {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  border: 1px solid #cb9995;
+  background: transparent;
+  color: #ffffff;
+  font-size: 18px;
+  width: 81%;
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 4px;
+}
+.todo-button:hover {
+  background: #cb9995;
+  color: #000000;
+}
+.todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px;
+  color: #ffffff;
+  border-bottom: 1px solid #cb9995;
+  padding: 16px;
+  width: 95%;
+}
+
+.icons {
+  align-items: right;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0px 7px;
+  text-align: right;
+}
+
+.icons:hover {
+  color: #cb9995;
+}
+
+/* todo-icons todo-icons-add */
+.todo-icons {
+  color: #cb9995;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.todo-icons:hover {
+  color: #ffffff;
+}
+
+.todo-icons-add {
+  font-size: 32px;
+}
+.todo-icons-edit {
+  font-size: 28px;
+}
+
+.todoImage {
+  margin-bottom: 30px;
+}
+
+.showItem {
+  margin-top: 20px;
+}
+
+.icons_right {
+  float: right;
+}
+
+.todo_calender {
+  position: absolute;
+  margin: 20px 10px;
+}
+.todo_calender h1, .todo_calender p  {
+  margin: 5px;
+  padding: 5px 10px;
+  background: rgb(0 0 0 / 20%);
+  color: #ffffff;
+  font-weight: 800;
+}
+
+p.month {
+  font-size: 21px;
+  letter-spacing: 1px;
+}
+
+span.msg {
+  color: #e8b1ac;
+  font-size: 15px;
+  font-weight: 700;
+}
