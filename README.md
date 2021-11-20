@@ -1,2 +1,2 @@
 # React
-MiniProjects , learn React using Sample Codes
+All codes are developed using ReactJS
